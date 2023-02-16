@@ -8,4 +8,4 @@ Run via Docker Compose
 
 ## Test the API with a sample image
 
-`curl -X POST -d @test-request.json http://localhost:5000`
+`curl -X POST -H 'Content-Type: application/json' -d @test-request.json http://localhost:5000`
