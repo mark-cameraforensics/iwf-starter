@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  iwf-starter:
+    build: .
+    image: iwf-starter
+    ports:
+      - "5000:5000"
+    entrypoint: python3 -m flask run --host=0.0.0.0
